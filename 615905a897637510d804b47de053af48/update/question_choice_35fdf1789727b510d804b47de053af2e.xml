@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="Team">fa694fa8976b7510d804b47de053afdb</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-03 01:02:05</sys_created_on>
+        <sys_id>35fdf1789727b510d804b47de053af2e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Titles Assessments</sys_name>
+        <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_update_name>question_choice_35fdf1789727b510d804b47de053af2e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-03 02:23:04</sys_updated_on>
+        <text>Titles Assessments</text>
+        <value>titles_assessments</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=35fdf1789727b510d804b47de053af2e"/>
+</record_update>

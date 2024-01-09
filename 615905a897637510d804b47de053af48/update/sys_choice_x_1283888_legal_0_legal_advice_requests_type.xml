@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="x_1283888_legal_0_legal_advice_requests" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>x_1283888_legal_0_legal_advice_requests</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-02 04:45:23</sys_created_on>
+            <sys_id>d777e9a497e37510d804b47de053af71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+            <sys_update_name>sys_choice_x_1283888_legal_0_legal_advice_requests_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-02 04:45:23</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>resources_regulator</dependent_value>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - Acts</label>
+            <language>en</language>
+            <name>x_1283888_legal_0_legal_advice_requests</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 00:28:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c54631709727b510d804b47de053af98</sys_id>
+            <sys_mod_count>18</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-04 01:46:31</sys_updated_on>
+            <value>1 - Acts</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>industry_development</dependent_value>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - Contracts</label>
+            <language>en</language>
+            <name>x_1283888_legal_0_legal_advice_requests</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 00:29:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d7679309727b510d804b47de053af2f</sys_id>
+            <sys_mod_count>26</sys_mod_count>
+            <sys_updated_by>fred.luddy</sys_updated_by>
+            <sys_updated_on>2024-01-06 06:19:01</sys_updated_on>
+            <value>1 - Contracts</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>communications_and_engagement</dependent_value>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - Claims</label>
+            <language>en</language>
+            <name>x_1283888_legal_0_legal_advice_requests</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 00:30:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8a6bd309727b510d804b47de053afd0</sys_id>
+            <sys_mod_count>23</sys_mod_count>
+            <sys_updated_by>fred.luddy</sys_updated_by>
+            <sys_updated_on>2024-01-06 06:18:18</sys_updated_on>
+            <value>1- Claims</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>communications_and_engagement</dependent_value>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - Government Information</label>
+            <language>en</language>
+            <name>x_1283888_legal_0_legal_advice_requests</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 00:30:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4a6bd309727b510d804b47de053afce</sys_id>
+            <sys_mod_count>10</sys_mod_count>
+            <sys_updated_by>fred.luddy</sys_updated_by>
+            <sys_updated_on>2024-01-06 06:18:18</sys_updated_on>
+            <value>2 - Government Information</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>industry_development</dependent_value>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - Terms and Conditions</label>
+            <language>en</language>
+            <name>x_1283888_legal_0_legal_advice_requests</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 00:29:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>217679309727b510d804b47de053af32</sys_id>
+            <sys_mod_count>26</sys_mod_count>
+            <sys_updated_by>fred.luddy</sys_updated_by>
+            <sys_updated_on>2024-01-06 06:19:01</sys_updated_on>
+            <value>2 - Terms and Conditions</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>communications_and_engagement</dependent_value>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - Others</label>
+            <language>en</language>
+            <name>x_1283888_legal_0_legal_advice_requests</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>fred.luddy</sys_created_by>
+            <sys_created_on>2024-01-06 06:18:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b13ee359727b910d804b47de053af5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>fred.luddy</sys_updated_by>
+            <sys_updated_on>2024-01-06 06:18:18</sys_updated_on>
+            <value>3 - Others</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>industry_development</dependent_value>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - Tenders</label>
+            <language>en</language>
+            <name>x_1283888_legal_0_legal_advice_requests</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 00:29:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>297679309727b510d804b47de053af2d</sys_id>
+            <sys_mod_count>27</sys_mod_count>
+            <sys_updated_by>fred.luddy</sys_updated_by>
+            <sys_updated_on>2024-01-06 06:19:01</sys_updated_on>
+            <value>3 - Tenders</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>titles_assessments</dependent_value>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - Titles</label>
+            <language>en</language>
+            <name>x_1283888_legal_0_legal_advice_requests</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 00:27:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e21679309727b510d804b47de053afd9</sys_id>
+            <sys_mod_count>20</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-04 23:53:04</sys_updated_on>
+            <value>1 - Titles</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>industry_development</dependent_value>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4 - Others</label>
+            <language>en</language>
+            <name>x_1283888_legal_0_legal_advice_requests</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>fred.luddy</sys_created_by>
+            <sys_created_on>2024-01-06 06:19:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd43a6759727b910d804b47de053affe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>fred.luddy</sys_updated_by>
+            <sys_updated_on>2024-01-06 06:19:01</sys_updated_on>
+            <value>4 - Others</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>titles_assessments</dependent_value>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - Disputes</label>
+            <language>en</language>
+            <name>x_1283888_legal_0_legal_advice_requests</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 00:27:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee1679309727b510d804b47de053afdb</sys_id>
+            <sys_mod_count>20</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-04 23:53:04</sys_updated_on>
+            <value>2 - Disputes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>resources_regulator</dependent_value>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - Policies</label>
+            <language>en</language>
+            <name>x_1283888_legal_0_legal_advice_requests</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 00:28:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c14631709727b510d804b47de053af96</sys_id>
+            <sys_mod_count>25</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-04 23:53:04</sys_updated_on>
+            <value>2 - Policies</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>resources_regulator</dependent_value>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - Compliance</label>
+            <language>en</language>
+            <name>x_1283888_legal_0_legal_advice_requests</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 00:28:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c94631709727b510d804b47de053af9a</sys_id>
+            <sys_mod_count>24</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-04 23:53:04</sys_updated_on>
+            <value>3 - Compliance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>titles_assessments</dependent_value>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - Other</label>
+            <language>en</language>
+            <name>x_1283888_legal_0_legal_advice_requests</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-04 00:36:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43a1070d97e7f510d804b47de053afcc</sys_id>
+            <sys_mod_count>15</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-06 01:48:27</sys_updated_on>
+            <value>3 - Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>resources_regulator</dependent_value>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4 - Other</label>
+            <language>en</language>
+            <name>x_1283888_legal_0_legal_advice_requests</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 00:28:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd4631709727b510d804b47de053af9c</sys_id>
+            <sys_mod_count>46</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-04 23:53:05</sys_updated_on>
+            <value>4 - Other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

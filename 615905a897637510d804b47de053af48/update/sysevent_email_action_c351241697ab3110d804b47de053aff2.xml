@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_1283888_legal_0_legal_advice_register</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>Notification that the requested legal advice has been received and registered</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name/>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>triggered</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><em>${mail_script:ccRequestedByManager}</em></p>
+<p>Dear ${request_number.requested_by.first_name},</p>
+<p>Your request for Legal Advice Number: ${request_number} has been received.</p>
+<p>You can click on this link ${request_number.URI_REF} to review the request record.</p>
+<p>The advice has been recorded into the Legal Advice Register Number: ${number}.</p>
+<p>You can click on this link ${URI_REF} to view the advice record.</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Received Advice Email Notification</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>request_number.requested_by</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Legal Advice Received ${number}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-07 10:16:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c351241697ab3110d804b47de053aff2</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Received Advice Email Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_update_name>sysevent_email_action_c351241697ab3110d804b47de053aff2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-07 11:37:28</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

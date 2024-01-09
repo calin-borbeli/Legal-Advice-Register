@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1283888_legal_0.checkDueDateSI</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Script logic to check if a date and time provided is before the current date and time.</description>
+        <name>checkDueDateSI</name>
+        <script><![CDATA[var checkDueDateSI = Class.create();
+checkDueDateSI.prototype = {
+    initialize: function() {
+    },
+    isDueDateBeforeNow: function(dueDateTime){
+        // Create GlideDateTime object for the current date and time
+        var currentDateTime = new GlideDateTime();
+        // Create GlideDateTime object for the provided date and time
+		var checkDateTime = new GlideDateTime(dueDateTime);
+    
+        // If the checkDateTime is before currentDateTime, return true, else return false
+        if (checkDateTime.before(currentDateTime)) {
+          return true;
+        }
+        else {
+          return false;
+        }
+    },
+	
+    minResponse: function(){
+		// Retrieve the value of the x_1283888_legal_0.minResponseDays Application Property
+        var minResponseDays = gs.getProperty('x_1283888_legal_0.minResponseDays');
+		return minResponseDays;
+    },
+    
+    isDueBeforeMinResponse: function(dueDateTime){
+        // Create GlideDateTime object for the provided date and time
+		var checkDateTime = new GlideDateTime(dueDateTime);
+    // 
+        // If the checkDateTime is before currentDateTime, return true, else return false
+        if (checkDateTime <= gs.daysAgo(-parseInt(this.minResponse()))) {
+          return true;
+        }
+        else {
+          return false;
+        }
+    },
+    type: 'checkDueDateSI'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-08 07:41:50</sys_created_on>
+        <sys_id>89b7c9ea97eb7110d804b47de053af92</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>checkDueDateSI</sys_name>
+        <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_update_name>sys_script_include_89b7c9ea97eb7110d804b47de053af92</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-09 02:44:44</sys_updated_on>
+    </sys_script_include>
+</record_update>

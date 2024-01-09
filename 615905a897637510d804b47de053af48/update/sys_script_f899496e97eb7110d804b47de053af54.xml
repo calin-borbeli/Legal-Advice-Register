@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1283888_legal_0_legal_advice_requests</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>checkDueDateBR</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+    // Instantiate the checkDueDate class.   
+    var checkDueDate = new checkDueDateSI();
+	// Call the isDueDateBeforeNow method and pass the due_date value
+    var isBeforeDueDate = checkDueDate.isDueDateBeforeNow(current.due_date);
+     // If the isDueDateBeforeNow method returns true, the date is in the past.
+    if(isBeforeDueDate == true){
+    gs.addErrorMessage("The Due date cannot be in the past.  Your request has not been saved to the database.");
+    current.setAbortAction(true);
+	return;
+    }
+	
+	// Call the isDueBeforeMinResponse method and pass the due_date value
+    var isBeforeMinResponse = checkDueDate.isDueBeforeMinResponse(current.due_date);
+	// Call the minResponse method and pass the minimum response value
+	var minResponseValue = checkDueDate.minResponse();
+    // If the isDueBeforeMinResponse method returns true, the date is before the minimum response timeframe.
+    if(isBeforeMinResponse == true){
+    gs.addErrorMessage("The Due date cannot be before the minimum response timeframe. The minimum response timeframe has been set to " + minResponseValue + " days. Your request has not been saved to the database.");
+    current.setAbortAction(true);
+	return;
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-08 07:53:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f899496e97eb7110d804b47de053af54</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>checkDueDateBR</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_update_name>sys_script_f899496e97eb7110d804b47de053af54</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-09 03:12:46</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=f899496e97eb7110d804b47de053af54"/>
+</record_update>
