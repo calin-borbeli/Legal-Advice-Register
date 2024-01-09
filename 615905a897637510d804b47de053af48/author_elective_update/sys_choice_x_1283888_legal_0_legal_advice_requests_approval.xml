@@ -1,100 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="team" table="x_1283888_legal_0_legal_advice_requests" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="approval" table="x_1283888_legal_0_legal_advice_requests" version="3">
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>team</element>
+            <element>approval</element>
             <name>x_1283888_legal_0_legal_advice_requests</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-02 04:39:09</sys_created_on>
-            <sys_id>7706e16497e37510d804b47de053affa</sys_id>
+            <sys_created_on>2024-01-04 09:38:07</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>team</sys_name>
+            <sys_name>approval</sys_name>
             <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
             <sys_policy/>
             <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
-            <sys_update_name>sys_choice_x_1283888_legal_0_legal_advice_requests_team</sys_update_name>
+            <sys_update_name>sys_choice_x_1283888_legal_0_legal_advice_requests_approval</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-02 04:39:09</sys_updated_on>
+            <sys_updated_on>2024-01-04 09:38:07</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>team</element>
+            <element>approval</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Communications and Engagement</label>
+            <label>Requested</label>
             <language>en</language>
             <name>x_1283888_legal_0_legal_advice_requests</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-03 00:02:39</sys_created_on>
+            <sys_created_on>2024-01-04 09:38:07</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5f50bdb897e3b510d804b47de053af7f</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 03:11:01</sys_updated_on>
-            <value>communications_and_engagement</value>
+            <sys_updated_on>2024-01-04 09:38:07</sys_updated_on>
+            <value>requested</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>team</element>
+            <element>approval</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Resources Regulator</label>
+            <label>Approved</label>
             <language>en</language>
             <name>x_1283888_legal_0_legal_advice_requests</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-03 00:02:39</sys_created_on>
+            <sys_created_on>2024-01-04 09:38:07</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d750bdb897e3b510d804b47de053af7b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 00:02:39</sys_updated_on>
-            <value>resources_regulator</value>
+            <sys_updated_on>2024-01-04 09:38:07</sys_updated_on>
+            <value>approved</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>team</element>
+            <element>approval</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Titles Assessments</label>
+            <label>Rejected</label>
             <language>en</language>
             <name>x_1283888_legal_0_legal_advice_requests</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-03 00:02:39</sys_created_on>
+            <sys_created_on>2024-01-04 09:38:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9b50bdb897e3b510d804b47de053af78</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 03:11:01</sys_updated_on>
-            <value>titles_assessments</value>
+            <sys_updated_on>2024-01-04 09:38:08</sys_updated_on>
+            <value>rejected</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>team</element>
+            <element>approval</element>
             <hint/>
-            <inactive>false</inactive>
-            <label>Industry Development</label>
+            <inactive>true</inactive>
+            <label>Not Yet Requested</label>
             <language>en</language>
             <name>x_1283888_legal_0_legal_advice_requests</name>
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-03 00:02:39</sys_created_on>
+            <sys_created_on>2024-01-04 09:38:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9b50bdb897e3b510d804b47de053af7d</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 03:11:01</sys_updated_on>
-            <value>industry_development</value>
+            <sys_updated_on>2024-01-04 09:38:08</sys_updated_on>
+            <value>not requested</value>
         </sys_choice>
     </sys_choice>
 </record_update>

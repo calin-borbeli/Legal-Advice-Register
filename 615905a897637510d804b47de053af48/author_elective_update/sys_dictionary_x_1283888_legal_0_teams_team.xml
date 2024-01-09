@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="team" table="x_1283888_legal_0_teams">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Team</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>true</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>team</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_1283888_legal_0_teams</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-02 10:56:43</sys_created_on>
+        <sys_id>e27c7ae8972b7510d804b47de053afa8</sys_id>
+        <sys_name>Team</sys_name>
+        <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_update_name>sys_dictionary_x_1283888_legal_0_teams_team</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-02 11:02:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Legal Advice Register">615905a897637510d804b47de053af48</application>
+        <file_path/>
+        <instance_id>0b18523d1bb275509377eb9b2d4bcbd9</instance_id>
+        <instance_name>dev228926</instance_name>
+        <name>sys_dictionary_x_1283888_legal_0_teams_team</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="team" table="x_1283888_legal_0_teams"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Team</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>true</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>team</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_1283888_legal_0_teams</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-02 10:56:43</sys_created_on><sys_id>e27c7ae8972b7510d804b47de053afa8</sys_id><sys_name>Team</sys_name><sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package><sys_policy/><sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope><sys_update_name>sys_dictionary_x_1283888_legal_0_teams_team</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-02 11:02:45</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1320159246</payload_hash>
+        <record_name>Teams.Team</record_name>
+        <reverted_from/>
+        <source>b95905a897637510d804b47de053af4a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-02 11:02:45</sys_created_on>
+        <sys_id>4bdd726c972b7510d804b47de053afba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cc9d7167a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-02 11:02:45</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>03dd726ca02b751051f54a99dfae5bba</update_guid>
+        <update_guid_history>03dd726ca02b751051f54a99dfae5bba:1320159246,7e7c7ae8482b75102974f2f5c0567cca:-539688727,327c7ae8d52b751002d857ba293a71c3:-218620954</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-03 22:46:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>1473a89a9c5c41d88284aa6907860c90</sys_id>
+        <sys_metadata>e27c7ae8972b7510d804b47de053afa8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Team</sys_name>
+        <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
+        <sys_parent display_value="">d05c76e8972b7510d804b47de053af96</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_scope_delete display_value="">4fc596eede0c438689746726fe04cd24</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1283888_legal_0_teams_team</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1283888_legal_0_teams_team">4bdd726c972b7510d804b47de053afba</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-03 22:46:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

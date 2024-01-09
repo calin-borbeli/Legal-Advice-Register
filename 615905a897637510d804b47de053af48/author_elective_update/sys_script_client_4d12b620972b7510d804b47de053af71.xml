@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Only display Legal Advice Type choices that match the Team value.</description>
+        <field>type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Legal Advice Request Type Option</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if ( newValue == '') {
+      return;
+    }
+    
+    var legalAdviceType = g_form.getValue('type');
+    
+    // Clear all of the choices from the What needed field choice list
+    g_form.clearOptions('type');
+    
+    // If the value of the Request type field is hr, add
+    // two hr choices and other to the What needed field choice list
+    if(newValue == 'titles_assessments'){
+      g_form.addOption('type','titles','Titles');
+      g_form.addOption('type','disputes','Disputes');
+      g_form.addOption('type','other','Other');
+    }
+    // If the value of the Request type field is facilities, add
+    // two facilities choices and other to the What needed field
+    // choice list
+    if(newValue == 'resources_regulator'){
+      g_form.addOption('type','policies','Policies');
+      g_form.addOption('type','acts','Acts');
+      g_form.addOption('type','compliance','Compliance');
+      g_form.addOption('type','other','Other');
+    }
+    // If the value of the Request type field is legal, add
+    // two legal choices and other to the What needed field
+    // choice list
+    if(newValue == 'industry_development'){
+      g_form.addOption('type','tenders','Tenders');
+      g_form.addOption('type','contracts','Contracts');
+      g_form.addOption('type','terms_and_conditions','Terms and Conditions');
+      g_form.addOption('type','other','Other');
+    }
+    if(newValue == 'communications_and_engagement'){
+      g_form.addOption('type','government_information','Government Information');
+      g_form.addOption('type','claims','Claims');
+      g_form.addOption('type','other','Other');
+    }
+    
+    // If the form is loading and it is not a new record, set the type value to the
+    // value from the record before it was loaded
+    if(isLoading && !g_form.isNewRecord()){
+      g_form.setValue('type', whatneeded);
+    }
+  }]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-02 10:28:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4d12b620972b7510d804b47de053af71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Legal Advice Request Type Option</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_update_name>sys_script_client_4d12b620972b7510d804b47de053af71</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-02 10:28:48</sys_updated_on>
+        <table>x_1283888_legal_0_legal_advice_requests</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Legal Advice Register">615905a897637510d804b47de053af48</application>
+        <file_path/>
+        <instance_id>0b18523d1bb275509377eb9b2d4bcbd9</instance_id>
+        <instance_name>dev228926</instance_name>
+        <name>sys_script_client_4d12b620972b7510d804b47de053af71</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Only display Legal Advice Type choices that match the Team value.&lt;/description&gt;&lt;field&gt;type&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Legal Advice Request Type Option&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if ( newValue == '') {
+      return;
+    }
+    
+    var legalAdviceType = g_form.getValue('type');
+    
+    // Clear all of the choices from the What needed field choice list
+    g_form.clearOptions('type');
+    
+    // If the value of the Request type field is hr, add
+    // two hr choices and other to the What needed field choice list
+    if(newValue == 'titles_assessments'){
+      g_form.addOption('type','titles','Titles');
+      g_form.addOption('type','disputes','Disputes');
+      g_form.addOption('type','other','Other');
+    }
+    // If the value of the Request type field is facilities, add
+    // two facilities choices and other to the What needed field
+    // choice list
+    if(newValue == 'resources_regulator'){
+      g_form.addOption('type','policies','Policies');
+      g_form.addOption('type','acts','Acts');
+      g_form.addOption('type','compliance','Compliance');
+      g_form.addOption('type','other','Other');
+    }
+    // If the value of the Request type field is legal, add
+    // two legal choices and other to the What needed field
+    // choice list
+    if(newValue == 'industry_development'){
+      g_form.addOption('type','tenders','Tenders');
+      g_form.addOption('type','contracts','Contracts');
+      g_form.addOption('type','terms_and_conditions','Terms and Conditions');
+      g_form.addOption('type','other','Other');
+    }
+    if(newValue == 'communications_and_engagement'){
+      g_form.addOption('type','government_information','Government Information');
+      g_form.addOption('type','claims','Claims');
+      g_form.addOption('type','other','Other');
+    }
+    
+    // If the form is loading and it is not a new record, set the type value to the
+    // value from the record before it was loaded
+    if(isLoading &amp;&amp; !g_form.isNewRecord()){
+      g_form.setValue('type', whatneeded);
+    }
+  }]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-02 10:28:48&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4d12b620972b7510d804b47de053af71&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Legal Advice Request Type Option&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Legal Advice Register" source="x_1283888_legal_0"&gt;615905a897637510d804b47de053af48&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Legal Advice Register"&gt;615905a897637510d804b47de053af48&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_4d12b620972b7510d804b47de053af71&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-02 10:28:48&lt;/sys_updated_on&gt;&lt;table&gt;x_1283888_legal_0_legal_advice_requests&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1359491026</payload_hash>
+        <record_name>Legal Advice Request Type Option</record_name>
+        <reverted_from/>
+        <source>b95905a897637510d804b47de053af4a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-02 10:28:48</sys_created_on>
+        <sys_id>bd16f6a0972b7510d804b47de053aff9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cc9b801b10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-02 10:28:48</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>f116f6a0422b75107c4b43e9d0bf9cf9</update_guid>
+        <update_guid_history>f116f6a0422b75107c4b43e9d0bf9cf9:-1359491026</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-02 11:11:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>6f2aacd7215e4ab082072fc287dd0f90</sys_id>
+        <sys_metadata>4d12b620972b7510d804b47de053af71</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Legal Advice Request Type Option</sys_name>
+        <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
+        <sys_parent display_value="Legal Advice Requests">868211e097a37510d804b47de053af63</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_scope_delete display_value="">4fc596eede0c438689746726fe04cd24</sys_scope_delete>
+        <sys_update_name>sys_script_client_4d12b620972b7510d804b47de053af71</sys_update_name>
+        <sys_update_version display_value="sys_script_client_4d12b620972b7510d804b47de053af71">bd16f6a0972b7510d804b47de053aff9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-02 11:11:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

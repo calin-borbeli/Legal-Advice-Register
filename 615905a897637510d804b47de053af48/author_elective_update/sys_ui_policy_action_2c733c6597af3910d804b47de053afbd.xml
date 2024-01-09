@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>status</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-05 03:31:56</sys_created_on>
+        <sys_id>2c733c6597af3910d804b47de053afbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>status</sys_name>
+        <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_update_name>sys_ui_policy_action_2c733c6597af3910d804b47de053afbd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-05 03:31:56</sys_updated_on>
+        <table>x_1283888_legal_0_legal_advice_requests</table>
+        <ui_policy display_value="Hide Submitted Status">a4733c6597af3910d804b47de053afb9</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Legal Advice Register">615905a897637510d804b47de053af48</application>
+        <file_path/>
+        <instance_id>0b18523d1bb275509377eb9b2d4bcbd9</instance_id>
+        <instance_name>dev228926</instance_name>
+        <name>sys_ui_policy_action_2c733c6597af3910d804b47de053afbd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>status</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-05 03:31:56</sys_created_on><sys_id>2c733c6597af3910d804b47de053afbd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>status</sys_name><sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package><sys_policy/><sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope><sys_update_name>sys_ui_policy_action_2c733c6597af3910d804b47de053afbd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-05 03:31:56</sys_updated_on><table>x_1283888_legal_0_legal_advice_requests</table><ui_policy display_value="Hide Submitted Status">a4733c6597af3910d804b47de053afb9</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1167270086</payload_hash>
+        <record_name>status</record_name>
+        <reverted_from/>
+        <source>b95905a897637510d804b47de053af4a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-05 03:31:56</sys_created_on>
+        <sys_id>20737c6597af3910d804b47de053af31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cd7ad6d9f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-05 03:31:56</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>64737c65d7af3910db9d5f06d96a8830</update_guid>
+        <update_guid_history>64737c65d7af3910db9d5f06d96a8830:-1167270086</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 06:47:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>264652552dda44698f7b1700264215e9</sys_id>
+        <sys_metadata>2c733c6597af3910d804b47de053afbd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>status</sys_name>
+        <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
+        <sys_parent display_value="">a4733c6597af3910d804b47de053afb9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_scope_delete display_value="">4fc596eede0c438689746726fe04cd24</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_2c733c6597af3910d804b47de053afbd</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_2c733c6597af3910d804b47de053afbd">20737c6597af3910d804b47de053af31</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 06:47:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
