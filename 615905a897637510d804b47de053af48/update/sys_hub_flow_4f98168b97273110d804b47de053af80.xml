@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>false</active>
+        <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4f98168b97273110d804b47de053af80</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Legal Advice Request Cancelled</sys_name>
         <sys_overrides/>
         <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_update_name>sys_hub_flow_4f98168b97273110d804b47de053af80</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 10:05:48</sys_updated_on>
+        <sys_updated_on>2024-01-10 22:31:17</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=4f98168b97273110d804b47de053af80"/>
@@ -72,16 +72,16 @@
         <table>x_1283888_legal_0_legal_advice_requests</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
         <identifier>4f98168b97273110d804b47de053af80</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 07:32:58</sys_created_on>
         <sys_id>c09a5b4f972b3110d804b47de053af6d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 10:05:49</sys_updated_on>
+        <sys_updated_on>2024-01-10 22:31:17</sys_updated_on>
         <trigger display_value="">106e6acf97673110d804b47de053af72</trigger>
     </sys_trigger_runner_mapping>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=4f98168b97273110d804b47de053af80^sys_idNOT INc09a5b4f972b3110d804b47de053af6d"/>

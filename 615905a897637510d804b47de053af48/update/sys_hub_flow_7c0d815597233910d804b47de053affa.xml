@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7c0d815597233910d804b47de053affa</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Legal Advice Request Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_update_name>sys_hub_flow_7c0d815597233910d804b47de053affa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:24:38</sys_updated_on>
+        <sys_updated_on>2024-01-11 04:58:47</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=7c0d815597233910d804b47de053affa"/>
@@ -76,9 +76,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-10 04:24:37</sys_created_on>
         <sys_id>4d7f224397a73110d804b47de053af51</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:24:38</sys_updated_on>
+        <sys_updated_on>2024-01-11 04:58:47</sys_updated_on>
         <trigger display_value="">a02b1af697e73110d804b47de053af91</trigger>
     </sys_trigger_runner_mapping>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=7c0d815597233910d804b47de053affa^sys_idNOT IN4d7f224397a73110d804b47de053af51"/>
