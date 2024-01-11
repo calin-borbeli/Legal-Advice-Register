@@ -10,15 +10,15 @@
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description>Approval Flow for a new Legal Advice Request</description>
         <internal_name>legal_advice_request_approval</internal_name>
-        <label_cache>[{"name":"Created_1.current.sys_created_on","label":"Trigger - Record Created➛Legal Advice Requests Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1283888_legal_0_legal_advice_requests","column_name":"sys_created_on"},{"name":"e951aff7-bd81-4547-9cb4-677762769cc9.record","label":"7 - Update Record➛Legal Advice Requests Record","reference":"x_1283888_legal_0_legal_advice_requests","reference_display":"Legal Advice Requests","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e93add6b-c5fe-4ef7-b37b-0eca45e44a59.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Legal Advice Requests Record","reference":"x_1283888_legal_0_legal_advice_requests","reference_display":"Legal Advice Requests","type":"reference","base_type":"reference","attributes":{}},{"name":"1d6f2ef9-fc4f-4197-9a04-1218a7bf8c03.record","label":"1 - Update Record➛Legal Advice Requests Record","reference":"x_1283888_legal_0_legal_advice_requests","reference_display":"Legal Advice Requests","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d6f2ef9-fc4f-4197-9a04-1218a7bf8c03.record.requested_by.manager","label":"1 - Update Record➛Legal Advice Requests Record➛Requested by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"56318043-b25e-4471-9297-7b2fb4039ddd.record","label":"4 - Update Record➛Legal Advice Requests Record","reference":"x_1283888_legal_0_legal_advice_requests","reference_display":"Legal Advice Requests","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"56318043-b25e-4471-9297-7b2fb4039ddd.record","label":"4 - Update Record➛Legal Advice Requests Record","reference":"x_1283888_legal_0_legal_advice_requests","reference_display":"Legal Advice Requests","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d6f2ef9-fc4f-4197-9a04-1218a7bf8c03.record.requested_by.manager","label":"1 - Update Record➛Legal Advice Requests Record➛Requested by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"1d6f2ef9-fc4f-4197-9a04-1218a7bf8c03.record","label":"1 - Update Record➛Legal Advice Requests Record","reference":"x_1283888_legal_0_legal_advice_requests","reference_display":"Legal Advice Requests","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Legal Advice Requests Record","reference":"x_1283888_legal_0_legal_advice_requests","reference_display":"Legal Advice Requests","type":"reference","base_type":"reference","attributes":{}},{"name":"e93add6b-c5fe-4ef7-b37b-0eca45e44a59.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e951aff7-bd81-4547-9cb4-677762769cc9.record","label":"7 - Update Record➛Legal Advice Requests Record","reference":"x_1283888_legal_0_legal_advice_requests","reference_display":"Legal Advice Requests","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.sys_created_on","label":"Trigger - Record Created➛Legal Advice Requests Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1283888_legal_0_legal_advice_requests","column_name":"sys_created_on"}]</label_cache>
         <master_snapshot>182bd6f697e73110d804b47de053affc</master_snapshot>
         <name>Legal Advice Request Approval</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
         <remote_trigger_id>a02b1af697e73110d804b47de053af91</remote_trigger_id>
-        <run_as>system</run_as>
-        <run_with_roles/>
+        <run_as>user</run_as>
+        <run_with_roles name="x_1283888_legal_0.admin">f15905a897637510d804b47de053af5c</run_with_roles>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7c0d815597233910d804b47de053affa</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Legal Advice Request Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_update_name>sys_hub_flow_7c0d815597233910d804b47de053affa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-11 04:58:47</sys_updated_on>
+        <sys_updated_on>2024-01-11 05:44:55</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=7c0d815597233910d804b47de053affa"/>
@@ -74,14 +74,14 @@
         <identifier>7c0d815597233910d804b47de053affa</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-10 04:24:37</sys_created_on>
-        <sys_id>4d7f224397a73110d804b47de053af51</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_created_on>2024-01-11 05:44:55</sys_created_on>
+        <sys_id>f66b00a797eb7110d804b47de053af71</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-11 04:58:47</sys_updated_on>
+        <sys_updated_on>2024-01-11 05:44:55</sys_updated_on>
         <trigger display_value="">a02b1af697e73110d804b47de053af91</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=7c0d815597233910d804b47de053affa^sys_idNOT IN4d7f224397a73110d804b47de053af51"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=7c0d815597233910d804b47de053affa^sys_idNOT INf66b00a797eb7110d804b47de053af71"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=7c0d815597233910d804b47de053affa^sys_idNOT IN052941e997ef3910d804b47de053afa0"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -92,10 +92,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-05 05:06:43</sys_created_on>
         <sys_id>052941e997ef3910d804b47de053afa0</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:24:38</sys_updated_on>
+        <sys_updated_on>2024-01-11 05:44:55</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -208,14 +208,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-05 05:06:43</sys_created_on>
         <sys_id>4d2941e997ef3910d804b47de053af9b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:24:38</sys_updated_on>
+        <sys_updated_on>2024-01-11 05:44:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -291,14 +291,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-05 05:06:43</sys_created_on>
         <sys_id>742941e997ef3910d804b47de053af95</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:24:38</sys_updated_on>
+        <sys_updated_on>2024-01-11 05:44:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -328,10 +328,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-06 01:51:47</sys_created_on>
         <sys_id>07162db99723b910d804b47de053afca</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:47:05</sys_updated_on>
+        <sys_updated_by>adela.cervantsz</sys_updated_by>
+        <sys_updated_on>2024-01-11 05:46:01</sys_updated_on>
         <ui_id>47f66393-a383-421c-88d8-729e76cc8c03</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=07162db99723b910d804b47de053afca"/>
@@ -416,10 +416,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-06 01:55:29</sys_created_on>
         <sys_id>29f6a9f99723b910d804b47de053af26</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:47:05</sys_updated_on>
+        <sys_updated_by>adela.cervantsz</sys_updated_by>
+        <sys_updated_on>2024-01-11 05:46:01</sys_updated_on>
         <ui_id>0b987ca5-24ab-42e9-a478-3322090a2aee</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=29f6a9f99723b910d804b47de053af26"/>
@@ -504,10 +504,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-05 06:16:38</sys_created_on>
         <sys_id>4929d9a997237910d804b47de053afc1</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:47:05</sys_updated_on>
+        <sys_updated_by>adela.cervantsz</sys_updated_by>
+        <sys_updated_on>2024-01-11 05:46:01</sys_updated_on>
         <ui_id>e951aff7-bd81-4547-9cb4-677762769cc9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4929d9a997237910d804b47de053afc1"/>
@@ -592,10 +592,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-05 05:53:00</sys_created_on>
         <sys_id>4bb3996597237910d804b47de053af06</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:47:05</sys_updated_on>
+        <sys_updated_by>adela.cervantsz</sys_updated_by>
+        <sys_updated_on>2024-01-11 05:46:01</sys_updated_on>
         <ui_id>e93add6b-c5fe-4ef7-b37b-0eca45e44a59</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4bb3996597237910d804b47de053af06"/>
@@ -744,10 +744,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-05 06:08:51</sys_created_on>
         <sys_id>8357116997237910d804b47de053affa</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:47:05</sys_updated_on>
+        <sys_updated_by>adela.cervantsz</sys_updated_by>
+        <sys_updated_on>2024-01-11 05:46:01</sys_updated_on>
         <ui_id>56318043-b25e-4471-9297-7b2fb4039ddd</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8357116997237910d804b47de053affa"/>
@@ -832,10 +832,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-05 05:06:43</sys_created_on>
         <sys_id>8d2941e997ef3910d804b47de053afa6</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:47:05</sys_updated_on>
+        <sys_updated_by>adela.cervantsz</sys_updated_by>
+        <sys_updated_on>2024-01-11 05:46:01</sys_updated_on>
         <ui_id>1d6f2ef9-fc4f-4197-9a04-1218a7bf8c03</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8d2941e997ef3910d804b47de053afa6"/>
@@ -930,10 +930,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-05 06:08:51</sys_created_on>
         <sys_id>4b57116997237910d804b47de053aff1</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:24:38</sys_updated_on>
+        <sys_updated_on>2024-01-11 05:44:55</sys_updated_on>
         <ui_id>7d4778de-f2b2-4088-a062-ed10d82c9d05</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1001,10 +1001,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-05 06:16:38</sys_created_on>
         <sys_id>c529d9a997237910d804b47de053afbb</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:24:38</sys_updated_on>
+        <sys_updated_on>2024-01-11 05:44:55</sys_updated_on>
         <ui_id>efca9abb-f9d3-4e8f-9549-0913749b42bd</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1075,15 +1075,15 @@
         <copied_from_name/>
         <description>Approval Flow for a new Legal Advice Request</description>
         <internal_name>legal_advice_request_approval</internal_name>
-        <label_cache>[{"name":"Created_1.current.sys_created_on","label":"Trigger - Record Created➛Legal Advice Requests Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1283888_legal_0_legal_advice_requests","column_name":"sys_created_on"},{"name":"e951aff7-bd81-4547-9cb4-677762769cc9.record","label":"7 - Update Record➛Legal Advice Requests Record","reference":"x_1283888_legal_0_legal_advice_requests","reference_display":"Legal Advice Requests","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e93add6b-c5fe-4ef7-b37b-0eca45e44a59.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Legal Advice Requests Record","reference":"x_1283888_legal_0_legal_advice_requests","reference_display":"Legal Advice Requests","type":"reference","base_type":"reference","attributes":{}},{"name":"1d6f2ef9-fc4f-4197-9a04-1218a7bf8c03.record","label":"1 - Update Record➛Legal Advice Requests Record","reference":"x_1283888_legal_0_legal_advice_requests","reference_display":"Legal Advice Requests","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d6f2ef9-fc4f-4197-9a04-1218a7bf8c03.record.requested_by.manager","label":"1 - Update Record➛Legal Advice Requests Record➛Requested by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"56318043-b25e-4471-9297-7b2fb4039ddd.record","label":"4 - Update Record➛Legal Advice Requests Record","reference":"x_1283888_legal_0_legal_advice_requests","reference_display":"Legal Advice Requests","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"56318043-b25e-4471-9297-7b2fb4039ddd.record","label":"4 - Update Record➛Legal Advice Requests Record","reference":"x_1283888_legal_0_legal_advice_requests","reference_display":"Legal Advice Requests","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1d6f2ef9-fc4f-4197-9a04-1218a7bf8c03.record.requested_by.manager","label":"1 - Update Record➛Legal Advice Requests Record➛Requested by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"1d6f2ef9-fc4f-4197-9a04-1218a7bf8c03.record","label":"1 - Update Record➛Legal Advice Requests Record","reference":"x_1283888_legal_0_legal_advice_requests","reference_display":"Legal Advice Requests","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Legal Advice Requests Record","reference":"x_1283888_legal_0_legal_advice_requests","reference_display":"Legal Advice Requests","type":"reference","base_type":"reference","attributes":{}},{"name":"e93add6b-c5fe-4ef7-b37b-0eca45e44a59.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e951aff7-bd81-4547-9cb4-677762769cc9.record","label":"7 - Update Record➛Legal Advice Requests Record","reference":"x_1283888_legal_0_legal_advice_requests","reference_display":"Legal Advice Requests","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.sys_created_on","label":"Trigger - Record Created➛Legal Advice Requests Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1283888_legal_0_legal_advice_requests","column_name":"sys_created_on"}]</label_cache>
         <master>true</master>
         <name>Legal Advice Request Approval</name>
         <natlang/>
         <outputs/>
         <parent_flow display_value="Legal Advice Request Approval">7c0d815597233910d804b47de053affa</parent_flow>
         <remote_trigger_id/>
-        <run_as>system</run_as>
-        <run_with_roles/>
+        <run_as>user</run_as>
+        <run_with_roles name="x_1283888_legal_0.admin">f15905a897637510d804b47de053af5c</run_with_roles>
         <sc_callable>false</sc_callable>
         <status>published</status>
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
@@ -1092,7 +1092,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>182bd6f697e73110d804b47de053affc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1100,7 +1100,7 @@
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:24:36</sys_updated_on>
+        <sys_updated_on>2024-01-11 05:44:54</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=182bd6f697e73110d804b47de053affc"/>
@@ -1115,10 +1115,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 08:17:21</sys_created_on>
         <sys_id>142b1af697e73110d804b47de053af5b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:24:38</sys_updated_on>
+        <sys_updated_on>2024-01-11 05:44:55</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1231,14 +1231,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 08:17:21</sys_created_on>
         <sys_id>542b1af697e73110d804b47de053af0f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:24:36</sys_updated_on>
+        <sys_updated_on>2024-01-11 05:44:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1314,14 +1314,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 08:17:21</sys_created_on>
         <sys_id>982bd6f697e73110d804b47de053affe</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:24:36</sys_updated_on>
+        <sys_updated_on>2024-01-11 05:44:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1351,10 +1351,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 08:17:21</sys_created_on>
         <sys_id>142b1af697e73110d804b47de053af4d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:24:36</sys_updated_on>
+        <sys_updated_on>2024-01-11 05:44:54</sys_updated_on>
         <ui_id>47f66393-a383-421c-88d8-729e76cc8c03</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=142b1af697e73110d804b47de053af4d"/>
@@ -1439,10 +1439,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 08:17:21</sys_created_on>
         <sys_id>142b1af697e73110d804b47de053af59</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:24:36</sys_updated_on>
+        <sys_updated_on>2024-01-11 05:44:54</sys_updated_on>
         <ui_id>0b987ca5-24ab-42e9-a478-3322090a2aee</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=142b1af697e73110d804b47de053af59"/>
@@ -1527,10 +1527,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 08:17:21</sys_created_on>
         <sys_id>902b1af697e73110d804b47de053af46</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:24:36</sys_updated_on>
+        <sys_updated_on>2024-01-11 05:44:54</sys_updated_on>
         <ui_id>56318043-b25e-4471-9297-7b2fb4039ddd</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=902b1af697e73110d804b47de053af46"/>
@@ -1615,10 +1615,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 08:17:21</sys_created_on>
         <sys_id>982b1af697e73110d804b47de053af53</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:24:36</sys_updated_on>
+        <sys_updated_on>2024-01-11 05:44:54</sys_updated_on>
         <ui_id>e951aff7-bd81-4547-9cb4-677762769cc9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=982b1af697e73110d804b47de053af53"/>
@@ -1703,10 +1703,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 08:17:21</sys_created_on>
         <sys_id>d42b1af697e73110d804b47de053af34</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:24:36</sys_updated_on>
+        <sys_updated_on>2024-01-11 05:44:54</sys_updated_on>
         <ui_id>1d6f2ef9-fc4f-4197-9a04-1218a7bf8c03</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d42b1af697e73110d804b47de053af34"/>
@@ -1791,10 +1791,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 08:17:21</sys_created_on>
         <sys_id>d42b1af697e73110d804b47de053af3e</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:24:36</sys_updated_on>
+        <sys_updated_on>2024-01-11 05:44:54</sys_updated_on>
         <ui_id>e93add6b-c5fe-4ef7-b37b-0eca45e44a59</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d42b1af697e73110d804b47de053af3e"/>
@@ -1952,10 +1952,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 08:17:21</sys_created_on>
         <sys_id>902b1af697e73110d804b47de053af2c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:24:36</sys_updated_on>
+        <sys_updated_on>2024-01-11 05:44:54</sys_updated_on>
         <ui_id>efca9abb-f9d3-4e8f-9549-0913749b42bd</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1985,10 +1985,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 08:17:21</sys_created_on>
         <sys_id>982b1af697e73110d804b47de053af1a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:24:36</sys_updated_on>
+        <sys_updated_on>2024-01-11 05:44:54</sys_updated_on>
         <ui_id>7d4778de-f2b2-4088-a062-ed10d82c9d05</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2097,17 +2097,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"e02b1af697e73110d804b47de053af93","name":"plan","plan_signature":null}}</plan>
         <plan_id>7c0d815597233910d804b47de053affa</plan_id>
-        <snapshot>ce94368797a73110d804b47de053af34</snapshot>
+        <snapshot>7aabc4a797eb7110d804b47de053af30</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-09 08:17:22</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e02b1af697e73110d804b47de053af93</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-10 04:24:38</sys_updated_on>
+        <sys_updated_on>2024-01-11 05:44:55</sys_updated_on>
         <trigger display_value="">a02b1af697e73110d804b47de053af91</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=7c0d815597233910d804b47de053affa"/>

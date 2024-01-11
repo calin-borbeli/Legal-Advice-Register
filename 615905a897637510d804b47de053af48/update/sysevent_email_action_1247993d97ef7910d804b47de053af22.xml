@@ -39,9 +39,7 @@
         <message_html><![CDATA[<p>Dear ${requested_by.first_name},</p>
 <p>Your Legal Advice Request Number ${URI_REF} for:</p>
 <p>Brief Description: ${brief_description}</p>
-<p>has been ${status} by Manager: ${manager.name}</p>
-<p>Approval history: ${approval_history}</p>
-<p>&nbsp;</p>]]></message_html>
+<p>has been ${status} by Manager: ${manager.name}</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Approval Outcome Notification</name>
@@ -63,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1247993d97ef7910d804b47de053af22</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Approval Outcome Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
@@ -71,7 +69,7 @@
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_update_name>sysevent_email_action_1247993d97ef7910d804b47de053af22</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-06 03:24:46</sys_updated_on>
+        <sys_updated_on>2024-01-11 08:13:14</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
