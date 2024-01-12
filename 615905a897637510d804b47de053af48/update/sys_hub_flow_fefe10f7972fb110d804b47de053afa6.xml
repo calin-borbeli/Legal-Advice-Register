@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>Notify Stakeholders of Legal Branch Advice Received</description>
+        <internal_name>legal_branch_advice_received</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Legal Advice Register Record","reference":"x_1283888_legal_0_legal_advice_register","reference_display":"Legal Advice Register","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master_snapshot>b920243b972fb110d804b47de053afbf</master_snapshot>
+        <name>Legal Branch Advice Received</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>7d20643b972fb110d804b47de053af13</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:48:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fefe10f7972fb110d804b47de053afa6</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Legal Branch Advice Received</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_update_name>sys_hub_flow_fefe10f7972fb110d804b47de053afa6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 02:56:09</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=fefe10f7972fb110d804b47de053afa6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fefe10f7972fb110d804b47de053afa6"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1283888_legal_0_legal_advice_register">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7d20643b972fb110d804b47de053af13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:59</sys_updated_on>
+        <table>x_1283888_legal_0_legal_advice_register</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>fefe10f7972fb110d804b47de053afa6</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:59</sys_created_on>
+        <sys_id>3920643b972fb110d804b47de053af14</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 02:56:09</sys_updated_on>
+        <trigger display_value="">7d20643b972fb110d804b47de053af13</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=fefe10f7972fb110d804b47de053afa6^sys_idNOT IN3920643b972fb110d804b47de053af14"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=fefe10f7972fb110d804b47de053afa6^sys_idNOT IN6d5f54f7972fb110d804b47de053af5f"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>New records created in the Legal Advice Register</comment>
+        <display_text/>
+        <flow display_value="Legal Branch Advice Received">fefe10f7972fb110d804b47de053afa6</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:50:25</sys_created_on>
+        <sys_id>6d5f54f7972fb110d804b47de053af5f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:59</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6d5f54f7972fb110d804b47de053af5f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>6d5f54f7972fb110d804b47de053af5f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:50:25</sys_created_on>
+        <sys_id>255f54f7972fb110d804b47de053af61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:50:25</sys_updated_on>
+        <value>x_1283888_legal_0_legal_advice_register</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>6d5f54f7972fb110d804b47de053af5f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:50:25</sys_created_on>
+        <sys_id>6d5f54f7972fb110d804b47de053af60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:50:25</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=fefe10f7972fb110d804b47de053afa6"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=fefe10f7972fb110d804b47de053afa6^sys_idNOT IN7afe10f7972fb110d804b47de053afa7"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>fefe10f7972fb110d804b47de053afa6</id>
+        <name>Legal Branch Advice Received</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:48:52</sys_created_on>
+        <sys_id>7afe10f7972fb110d804b47de053afa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:48:52</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=7afe10f7972fb110d804b47de053afa7"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=fefe10f7972fb110d804b47de053afa6^sys_idNOT IN695f54f7972fb110d804b47de053af57,e55f54f7972fb110d804b47de053af5b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Legal Branch Advice Received">fefe10f7972fb110d804b47de053afa6</model>
+        <model_id>fefe10f7972fb110d804b47de053afa6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_fefe10f7972fb110d804b47de053afa6</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:50:25</sys_created_on>
+        <sys_id>695f54f7972fb110d804b47de053af57</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Legal Branch Advice Received">fefe10f7972fb110d804b47de053afa6</model>
+        <model_id>fefe10f7972fb110d804b47de053afa6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_fefe10f7972fb110d804b47de053afa6</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:50:25</sys_created_on>
+        <sys_id>e55f54f7972fb110d804b47de053af5b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=fefe10f7972fb110d804b47de053afa6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fefe10f7972fb110d804b47de053afa6"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=fefe10f7972fb110d804b47de053afa6^sys_idNOT IN217f58f7972fb110d804b47de053afb5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type>
+        <action_type_parent/>
+        <comment>Notify the interested parties that the advice has been received</comment>
+        <display_text/>
+        <flow display_value="Legal Branch Advice Received">fefe10f7972fb110d804b47de053afa6</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:50:58</sys_created_on>
+        <sys_id>217f58f7972fb110d804b47de053afb5</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:59</sys_updated_on>
+        <ui_id>9df45774-82d9-4e9d-b55a-61d659aacfd6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=217f58f7972fb110d804b47de053afb5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>217f58f7972fb110d804b47de053afb5</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:50:58</sys_created_on>
+        <sys_id>217f58f7972fb110d804b47de053afb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:50:58</sys_updated_on>
+        <value>x_1283888_legal_0_legal_advice_register</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>217f58f7972fb110d804b47de053afb5</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:50:58</sys_created_on>
+        <sys_id>6d7f58f7972fb110d804b47de053afb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:50:58</sys_updated_on>
+        <value>c351241697ab3110d804b47de053aff2</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>217f58f7972fb110d804b47de053afb5</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:58</sys_created_on>
+        <sys_id>ad20243b972fb110d804b47de053af93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:58</sys_updated_on>
+        <value>x_1283888_legal_0_legal_advice_register</value>
+        <variable display_value="Table">3e8b15b10f11101051218e8ebc767e26</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>217f58f7972fb110d804b47de053afb5</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:58</sys_created_on>
+        <sys_id>e920243b972fb110d804b47de053af93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:58</sys_updated_on>
+        <value>c351241697ab3110d804b47de053aff2</value>
+        <variable display_value="Notification">f28b15b10f11101051218e8ebc767e2c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=217f58f7972fb110d804b47de053afb5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>notification</field>
+        <id>217f58f7972fb110d804b47de053afb5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:50:58</sys_created_on>
+        <sys_id>617f58f7972fb110d804b47de053afb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:50:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>notification</field>
+        <id>217f58f7972fb110d804b47de053afb5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:58</sys_created_on>
+        <sys_id>e120243b972fb110d804b47de053af93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_7eda5d710f11101051218e8ebc767ec1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>217f58f7972fb110d804b47de053afb5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:50:58</sys_created_on>
+        <sys_id>e97f58f7972fb110d804b47de053afb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:50:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>217f58f7972fb110d804b47de053afb5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:58</sys_created_on>
+        <sys_id>6920243b972fb110d804b47de053af93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_7eda5d710f11101051218e8ebc767ec1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>217f58f7972fb110d804b47de053afb5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:50:58</sys_created_on>
+        <sys_id>297f58f7972fb110d804b47de053afb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:50:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>217f58f7972fb110d804b47de053afb5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:58</sys_created_on>
+        <sys_id>a520243b972fb110d804b47de053af93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_7eda5d710f11101051218e8ebc767ec1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=217f58f7972fb110d804b47de053afb5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=217f58f7972fb110d804b47de053afb5"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=fefe10f7972fb110d804b47de053afa6"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=fefe10f7972fb110d804b47de053afa6"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fefe10f7972fb110d804b47de053afa6"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=fefe10f7972fb110d804b47de053afa6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_fefe10f7972fb110d804b47de053afa6^sys_idNOT IN695f54f7972fb110d804b47de053af5a,e95f54f7972fb110d804b47de053af5d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fefe10f7972fb110d804b47de053afa6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:50:25</sys_created_on>
+        <sys_id>695f54f7972fb110d804b47de053af5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:50:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fefe10f7972fb110d804b47de053afa6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:50:25</sys_created_on>
+        <sys_id>e95f54f7972fb110d804b47de053af5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:50:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_fefe10f7972fb110d804b47de053afa6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_fefe10f7972fb110d804b47de053afa6"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_fefe10f7972fb110d804b47de053afa6"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name/>
+        <description>Notify Stakeholders of Legal Branch Advice Received</description>
+        <internal_name>legal_branch_advice_received</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Legal Advice Register Record","reference":"x_1283888_legal_0_legal_advice_register","reference_display":"Legal Advice Register","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Legal Branch Advice Received</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Legal Branch Advice Received">fefe10f7972fb110d804b47de053afa6</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b920243b972fb110d804b47de053afbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:58</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=b920243b972fb110d804b47de053afbf"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b920243b972fb110d804b47de053afbf"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=b920243b972fb110d804b47de053afbf^sys_idNOT IN3920243b972fb110d804b47de053affe"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment>New records created in the Legal Advice Register</comment>
+        <display_text/>
+        <flow display_value="Legal Branch Advice Received">b920243b972fb110d804b47de053afbf</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:59</sys_created_on>
+        <sys_id>3920243b972fb110d804b47de053affe</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:59</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3920243b972fb110d804b47de053affe"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3920243b972fb110d804b47de053affe</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:59</sys_created_on>
+        <sys_id>3120643b972fb110d804b47de053af00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:59</sys_updated_on>
+        <value>x_1283888_legal_0_legal_advice_register</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3920243b972fb110d804b47de053affe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:59</sys_created_on>
+        <sys_id>7d20243b972fb110d804b47de053afff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:59</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=b920243b972fb110d804b47de053afbf"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b920243b972fb110d804b47de053afbf^sys_idNOT INf520243b972fb110d804b47de053afc0"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b920243b972fb110d804b47de053afbf</id>
+        <name>Legal Branch Advice Received</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:58</sys_created_on>
+        <sys_id>f520243b972fb110d804b47de053afc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:58</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f520243b972fb110d804b47de053afc0"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=b920243b972fb110d804b47de053afbf^sys_idNOT IN3920243b972fb110d804b47de053afc1,bd20243b972fb110d804b47de053afdb"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Legal Branch Advice Received">b920243b972fb110d804b47de053afbf</model>
+        <model_id>b920243b972fb110d804b47de053afbf</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_b920243b972fb110d804b47de053afbf</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:58</sys_created_on>
+        <sys_id>3920243b972fb110d804b47de053afc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Legal Branch Advice Received">b920243b972fb110d804b47de053afbf</model>
+        <model_id>b920243b972fb110d804b47de053afbf</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_b920243b972fb110d804b47de053afbf</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:59</sys_created_on>
+        <sys_id>bd20243b972fb110d804b47de053afdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=b920243b972fb110d804b47de053afbf"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b920243b972fb110d804b47de053afbf"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=b920243b972fb110d804b47de053afbf^sys_idNOT IN3920243b972fb110d804b47de053affc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent/>
+        <comment>Notify the interested parties that the advice has been received</comment>
+        <display_text/>
+        <flow display_value="Legal Branch Advice Received">b920243b972fb110d804b47de053afbf</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:59</sys_created_on>
+        <sys_id>3920243b972fb110d804b47de053affc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:59</sys_updated_on>
+        <ui_id>9df45774-82d9-4e9d-b55a-61d659aacfd6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3920243b972fb110d804b47de053affc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3920243b972fb110d804b47de053affc</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:59</sys_created_on>
+        <sys_id>3520243b972fb110d804b47de053affe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:59</sys_updated_on>
+        <value>x_1283888_legal_0_legal_advice_register</value>
+        <variable display_value="Table">818dd9f10f11101051218e8ebc767e32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3920243b972fb110d804b47de053affc</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:59</sys_created_on>
+        <sys_id>7120243b972fb110d804b47de053affe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:59</sys_updated_on>
+        <value>c351241697ab3110d804b47de053aff2</value>
+        <variable display_value="Notification">418dd9f10f11101051218e8ebc767e38</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3920243b972fb110d804b47de053affc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>notification</field>
+        <id>3920243b972fb110d804b47de053affc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:59</sys_created_on>
+        <sys_id>7920243b972fb110d804b47de053affd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3920243b972fb110d804b47de053affc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:59</sys_created_on>
+        <sys_id>fd20243b972fb110d804b47de053affd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3920243b972fb110d804b47de053affc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:59</sys_created_on>
+        <sys_id>3d20243b972fb110d804b47de053affd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0d8dd9f10f11101051218e8ebc767e27</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3920243b972fb110d804b47de053affc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3920243b972fb110d804b47de053affc"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=b920243b972fb110d804b47de053afbf"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=b920243b972fb110d804b47de053afbf"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b920243b972fb110d804b47de053afbf"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=b920243b972fb110d804b47de053afbf"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_b920243b972fb110d804b47de053afbf^sys_idNOT INb520243b972fb110d804b47de053afd8,f520243b972fb110d804b47de053afe0"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b920243b972fb110d804b47de053afbf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:59</sys_created_on>
+        <sys_id>b520243b972fb110d804b47de053afd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_b920243b972fb110d804b47de053afbf</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:59</sys_created_on>
+        <sys_id>f520243b972fb110d804b47de053afe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_b920243b972fb110d804b47de053afbf"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_b920243b972fb110d804b47de053afbf"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_b920243b972fb110d804b47de053afbf"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>fefe10f7972fb110d804b47de053afa6</sys_id>
+        <latest_snapshot>b920243b972fb110d804b47de053afbf</latest_snapshot>
+        <compiler_build>glide-utah-12-21-2022__patch7a-09-28-2023_10-10-2023_1258.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=fefe10f7972fb110d804b47de053afa6^sys_idNOT IN3d20643b972fb110d804b47de053af15"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"3d20643b972fb110d804b47de053af15","name":"plan","plan_signature":null}}</plan>
+        <plan_id>fefe10f7972fb110d804b47de053afa6</plan_id>
+        <snapshot>96b120bb972fb110d804b47de053afe8</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 01:53:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3d20643b972fb110d804b47de053af15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 01:53:59</sys_updated_on>
+        <trigger display_value="">7d20643b972fb110d804b47de053af13</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=fefe10f7972fb110d804b47de053afa6"/>
+</record_update>
