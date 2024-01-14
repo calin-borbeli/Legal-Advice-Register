@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="90f8893397efb110d804b47de053afb9" sys_domain="global" table="x_1283888_legal_0_legal_advice_requests" version="3" view="workspace-legal-advice-register-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 04:52:11</sys_created_on>
+            <sys_id>90f8893397efb110d804b47de053afbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 04:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>team</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 04:52:11</sys_created_on>
+            <sys_id>90f8893397efb110d804b47de053afbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 04:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 04:52:11</sys_created_on>
+            <sys_id>90f8893397efb110d804b47de053afbd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 04:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 04:52:11</sys_created_on>
+            <sys_id>94f8893397efb110d804b47de053afbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 04:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 04:52:11</sys_created_on>
+            <sys_id>50f8893397efb110d804b47de053afbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 04:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 04:52:11</sys_created_on>
+            <sys_id>94f8893397efb110d804b47de053afbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 04:52:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requested_by</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 04:52:11</sys_created_on>
+            <sys_id>94f8893397efb110d804b47de053afbd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 04:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requested_by.manager</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 04:52:11</sys_created_on>
+            <sys_id>98f8893397efb110d804b47de053afbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 04:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>urgency</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 04:52:11</sys_created_on>
+            <sys_id>98f8893397efb110d804b47de053afbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 04:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>due_date</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 04:52:11</sys_created_on>
+            <sys_id>98f8893397efb110d804b47de053afbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 04:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 04:52:11</sys_created_on>
+            <sys_id>98f8893397efb110d804b47de053afbd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 04:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 04:52:11</sys_created_on>
+            <sys_id>9cf8893397efb110d804b47de053afbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 04:52:11</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>brief_description</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 04:52:11</sys_created_on>
+            <sys_id>9cf8893397efb110d804b47de053afbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 04:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 04:52:11</sys_created_on>
+            <sys_id>9cf8893397efb110d804b47de053afbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 04:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 04:52:11</sys_created_on>
+            <sys_id>9cf8893397efb110d804b47de053afbd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 04:52:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1283888_legal_0_legal_advice_requests</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-12 04:52:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90f8893397efb110d804b47de053afb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1283888_legal_0_legal_advice_requests</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+            <sys_update_name>sys_ui_section_90f8893397efb110d804b47de053afb9</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-12 04:52:11</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Legal Advice Register 0" name="workspace-legal-advice-register-0">39e8c53337efb11031e3a0c3b76ab07d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Legal Advice Register">615905a897637510d804b47de053af48</application>
+        <file_path/>
+        <instance_id>0b18523d1bb275509377eb9b2d4bcbd9</instance_id>
+        <instance_name>dev228926</instance_name>
+        <name>sys_ui_section_90f8893397efb110d804b47de053afb9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="90f8893397efb110d804b47de053afb9" sys_domain="global" table="x_1283888_legal_0_legal_advice_requests" version="3" view="workspace-legal-advice-register-0"><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-12 04:52:11</sys_created_on><sys_id>90f8893397efb110d804b47de053afbe</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-12 04:52:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>team</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-12 04:52:11</sys_created_on><sys_id>90f8893397efb110d804b47de053afbc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-12 04:52:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>type</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-12 04:52:11</sys_created_on><sys_id>90f8893397efb110d804b47de053afbd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-12 04:52:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>other</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-12 04:52:11</sys_created_on><sys_id>94f8893397efb110d804b47de053afbe</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-12 04:52:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>status</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-12 04:52:11</sys_created_on><sys_id>50f8893397efb110d804b47de053afbb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-12 04:52:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-12 04:52:11</sys_created_on><sys_id>94f8893397efb110d804b47de053afbc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-12 04:52:11</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>requested_by</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-12 04:52:11</sys_created_on><sys_id>94f8893397efb110d804b47de053afbd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-12 04:52:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>requested_by.manager</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-12 04:52:11</sys_created_on><sys_id>98f8893397efb110d804b47de053afbe</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-12 04:52:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>urgency</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-12 04:52:11</sys_created_on><sys_id>98f8893397efb110d804b47de053afbb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-12 04:52:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>due_date</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-12 04:52:11</sys_created_on><sys_id>98f8893397efb110d804b47de053afbc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-12 04:52:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>active</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-12 04:52:11</sys_created_on><sys_id>98f8893397efb110d804b47de053afbd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-12 04:52:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-12 04:52:11</sys_created_on><sys_id>9cf8893397efb110d804b47de053afbe</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-12 04:52:11</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>brief_description</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-12 04:52:11</sys_created_on><sys_id>9cf8893397efb110d804b47de053afbb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-12 04:52:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>13</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-12 04:52:11</sys_created_on><sys_id>9cf8893397efb110d804b47de053afbc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-12 04:52:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>work_notes</element><position>14</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-12 04:52:11</sys_created_on><sys_id>9cf8893397efb110d804b47de053afbd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1283888_legal_0_legal_advice_requests" sys_domain="global" view="39e8c53337efb11031e3a0c3b76ab07d">90f8893397efb110d804b47de053afb9</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-12 04:52:11</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1283888_legal_0_legal_advice_requests</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-12 04:52:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>90f8893397efb110d804b47de053afb9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1283888_legal_0_legal_advice_requests</sys_name><sys_overrides/><sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package><sys_policy/><sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope><sys_update_name>sys_ui_section_90f8893397efb110d804b47de053afb9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-12 04:52:11</sys_updated_on><sys_user/><title>true</title><view display_value="Workspace Legal Advice Register 0" name="workspace-legal-advice-register-0">39e8c53337efb11031e3a0c3b76ab07d</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1273617516</payload_hash>
+        <record_name>Legal Advice Requests</record_name>
+        <reverted_from/>
+        <source>9212a10797633110d804b47de053afa6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 04:57:04</sys_created_on>
+        <sys_id>a70a817797efb110d804b47de053afcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cfc07e19c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 04:57:04</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>670a817740efb110d827ed3dfb7227cf</update_guid>
+        <update_guid_history>670a817740efb110d827ed3dfb7227cf:1273617516</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 04:57:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>8ff9311926f045daaf3a41cf0b191d44</sys_id>
+        <sys_metadata>90f8893397efb110d804b47de053afb9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1283888_legal_0_legal_advice_requests</sys_name>
+        <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
+        <sys_parent display_value="Legal Advice Requests">868211e097a37510d804b47de053af63</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_scope_delete display_value="">4fc596eede0c438689746726fe04cd24</sys_scope_delete>
+        <sys_update_name>sys_ui_section_90f8893397efb110d804b47de053afb9</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_90f8893397efb110d804b47de053afb9">a70a817797efb110d804b47de053afcf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 04:57:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

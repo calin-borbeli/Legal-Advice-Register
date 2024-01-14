@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Legal Advice Register">71e8c533c9efb1107c262805d9e76680</dashboard>
+        <group/>
+        <role display_value="x_1283888_legal_0.user" name="x_1283888_legal_0.user">b55905a897637510d804b47de053af61</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-12 04:52:06</sys_created_on>
+        <sys_id>7ae8093397efb110d804b47de053af81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>71e8c533c9efb1107c262805d9e76680</sys_name>
+        <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
+        <sys_update_name>par_dashboard_permission_7ae8093397efb110d804b47de053af81</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-12 04:52:06</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

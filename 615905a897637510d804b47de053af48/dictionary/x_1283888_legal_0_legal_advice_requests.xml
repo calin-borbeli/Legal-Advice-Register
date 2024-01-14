@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="868211e097a37510d804b47de053af63" extends="task" label="Legal Advice Requests" max_length="40" name="x_1283888_legal_0_legal_advice_requests" type="collection">
+    <element db_object_id="868211e097a37510d804b47de053af63" extends="task" label="Legal Advice Requests" max_length="40" name="x_1283888_legal_0_legal_advice_requests" text_index="true" type="collection">
         <element label="Brief Description" mandatory="true" max_length="150" name="brief_description" type="string"/>
         <element choice="3" default="titles" label="Legal Advice Type" mandatory="true" max_length="40" name="legal_advice_type" type="choice">
             <choice>
