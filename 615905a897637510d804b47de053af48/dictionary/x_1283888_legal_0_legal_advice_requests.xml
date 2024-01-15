@@ -16,7 +16,7 @@
                 <element inactive_on_update="false" label="Other" sequence="10" value="other"/>
             </choice>
         </element>
-        <element dependent="requested_by" dependent_on_field="requested_by" label="Manager" mandatory="true" max_length="32" name="manager" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="Manager" mandatory="true" max_length="32" name="manager" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element label="Other" max_length="40" name="other" type="string"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Requested by" mandatory="true" max_length="40" name="requested_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element choice="3" label="Status" max_length="40" name="status" read_only="true" type="choice">

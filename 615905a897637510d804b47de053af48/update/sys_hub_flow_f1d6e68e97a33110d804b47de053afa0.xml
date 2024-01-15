@@ -10,7 +10,7 @@
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description>When a reply email is received from the Legal Branch, create a new record in the Legal Advice Register table and update the Status to Completed in the Legal Advice Requests table</description>
         <internal_name>legal_branch_inbound_email</internal_name>
-        <label_cache>[{"name":"Inbound Email_1.inbound_email","label":"Trigger - Inbound Email➛Email Record","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{}},{"name":"Inbound Email_1.target_record","label":"Trigger - Inbound Email➛Legal Advice Requests Record","reference":"x_1283888_legal_0_legal_advice_requests","reference_display":"Legal Advice Requests","type":"reference","base_type":"reference","attributes":{"test_input_hidden":"true"}},{"name":"Inbound Email_1.body_text","label":"Trigger - Inbound Email➛Body Text","type":"string_full_utf8","base_type":"string_full_utf8","attributes":{"test_input_hidden":"true"}},{"name":"Inbound Email_1.from_address","label":"Trigger - Inbound Email➛From address","type":"string_full_utf8","base_type":"string_full_utf8","attributes":{"test_input_hidden":"true"}},{"name":"Inbound Email_1.inbound_email.sys_created_on","label":"Trigger - Inbound Email➛Email Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sys_email","column_name":"sys_created_on"},{"name":"3ac69927-8475-4438-aa5b-0ca76072222a.record.number","label":"1➛Legal Advice Requests Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1283888_legal_0_legal_advice_requests","column_name":"number"},{"name":"Inbound Email_1.target_record.number","label":"Trigger - Inbound Email➛Legal Advice Requests Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1283888_legal_0_legal_advice_requests","column_name":"number"},{"name":"5f5ac212-c787-4907-bd6b-dbbc764d8078.record","label":"2 - Create Record➛Legal Advice Register Record","reference":"x_1283888_legal_0_legal_advice_register","reference_display":"Legal Advice Register Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"5f5ac212-c787-4907-bd6b-dbbc764d8078.record","label":"2 - Create Record➛Legal Advice Register Record","reference":"x_1283888_legal_0_legal_advice_register","reference_display":"Legal Advice Register Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Inbound Email_1.target_record.number","label":"Trigger - Inbound Email➛Legal Advice Requests Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1283888_legal_0_legal_advice_requests","column_name":"number"},{"name":"3ac69927-8475-4438-aa5b-0ca76072222a.record.number","label":"1➛Legal Advice Requests Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1283888_legal_0_legal_advice_requests","column_name":"number"},{"name":"Inbound Email_1.inbound_email.sys_created_on","label":"Trigger - Inbound Email➛Email Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sys_email","column_name":"sys_created_on"},{"name":"Inbound Email_1.from_address","label":"Trigger - Inbound Email➛From address","type":"string_full_utf8","base_type":"string_full_utf8","attributes":{"test_input_hidden":"true"}},{"name":"Inbound Email_1.body_text","label":"Trigger - Inbound Email➛Body Text","type":"string_full_utf8","base_type":"string_full_utf8","attributes":{"test_input_hidden":"true"}},{"name":"Inbound Email_1.target_record","label":"Trigger - Inbound Email➛Legal Advice Requests Record","reference":"x_1283888_legal_0_legal_advice_requests","reference_display":"Legal Advice Requests","type":"reference","base_type":"reference","attributes":{"test_input_hidden":"true"}},{"name":"Inbound Email_1.inbound_email","label":"Trigger - Inbound Email➛Email Record","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
         <master_snapshot>980c1b4297a73110d804b47de053af71</master_snapshot>
         <name>Legal Branch Inbound Email</name>
         <natlang/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f1d6e68e97a33110d804b47de053afa0</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>Legal Branch Inbound Email</sys_name>
         <sys_overrides/>
         <sys_package display_value="Legal Advice Register" source="x_1283888_legal_0">615905a897637510d804b47de053af48</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_update_name>sys_hub_flow_f1d6e68e97a33110d804b47de053afa0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-12 02:36:46</sys_updated_on>
+        <sys_updated_on>2024-01-15 09:55:23</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f1d6e68e97a33110d804b47de053afa0"/>
@@ -75,10 +75,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-07 01:35:33</sys_created_on>
         <sys_id>83fb26c297e33110d804b47de053afd7</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-12 02:36:46</sys_updated_on>
+        <sys_updated_on>2024-01-15 09:55:23</sys_updated_on>
         <trigger_definition display_value="Inbound Email">6f0180400b320300f4eb8bf637673ad4</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -121,10 +121,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-07 01:35:33</sys_created_on>
         <sys_id>cbfb26c297e33110d804b47de053afd8</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-11 13:06:02</sys_updated_on>
-        <value>receive_type=reply^subjectLIKELARQ</value>
+        <sys_updated_on>2024-01-15 09:55:23</sys_updated_on>
+        <value>receive_type=reply^subjectLIKELARQ^ORbody_textLIKELARQ</value>
         <variable display_value="Email Conditions">18010347c7312300f4eba1425a9763f7</variable>
     </sys_variable_value>
     <sys_hub_flow_stage action="delete_multiple" query="flow=f1d6e68e97a33110d804b47de053afa0"/>
@@ -743,10 +743,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-07 23:27:07</sys_created_on>
         <sys_id>2328171297677110d804b47de053afdb</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-12 02:36:46</sys_updated_on>
+        <sys_updated_on>2024-01-15 09:55:23</sys_updated_on>
         <ui_id>98c25034-35f5-47c8-bfef-680c91d10440</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2328171297677110d804b47de053afdb"/>
@@ -895,10 +895,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-07 04:02:58</sys_created_on>
         <sys_id>6ebd0bc297673110d804b47de053af5c</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-12 02:36:46</sys_updated_on>
+        <sys_updated_on>2024-01-15 09:55:23</sys_updated_on>
         <ui_id>3ac69927-8475-4438-aa5b-0ca76072222a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6ebd0bc297673110d804b47de053af5c"/>
@@ -1047,10 +1047,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-07 04:43:04</sys_created_on>
         <sys_id>f5e6530e97673110d804b47de053afa0</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-12 02:36:46</sys_updated_on>
+        <sys_updated_on>2024-01-15 09:55:23</sys_updated_on>
         <ui_id>5f5ac212-c787-4907-bd6b-dbbc764d8078</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f5e6530e97673110d804b47de053afa0"/>

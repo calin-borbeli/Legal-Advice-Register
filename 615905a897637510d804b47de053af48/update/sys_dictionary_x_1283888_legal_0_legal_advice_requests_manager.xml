@@ -14,8 +14,8 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent>requested_by</dependent>
-        <dependent_on_field>requested_by</dependent_on_field>
+        <dependent/>
+        <dependent_on_field/>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Legal Advice Register">615905a897637510d804b47de053af48</sys_scope>
         <sys_update_name>sys_dictionary_x_1283888_legal_0_legal_advice_requests_manager</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-05 00:08:12</sys_updated_on>
+        <sys_updated_on>2024-01-15 08:44:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
